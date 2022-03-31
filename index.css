@@ -1,0 +1,52 @@
+.fondo{
+    background-image: url(https://uploadgerencie.com/imagenes/liquidacion-salarios-jornal.png);
+    
+}
+
+.main{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 50px;
+}
+
+
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido input{
+    height: 20px;
+}
+
+.contenido-salario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.contenido-salario input{
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn input{
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.btn input:hover{
+    background-color: grey;
+}
+
+.imagen img{
+    border-radius: 8px;
+}
